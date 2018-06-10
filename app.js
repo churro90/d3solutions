@@ -7,10 +7,10 @@ const express = require('express'),
       app.set('view engine', 'ejs');
       app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function (req, res) {
+app.get('/', (req, res)  => {
   res.render('index.html');
 });
 
-app.listen(3000, function () {
+app.listen(PORT, () => {
   console.log('Example app listening on port' + PORT);
 });
