@@ -1,0 +1,24 @@
+{
+  "name": "d3solutionsv1",
+  "version": "1.0.0",
+  "description": "Primera version landing d3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/churro90/d3solutions.git"
+  },
+  "author": "Martin Carrasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/churro90/d3solutions/issues"
+  },
+  "homepage": "https://github.com/churro90/d3solutions#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
